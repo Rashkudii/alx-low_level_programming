@@ -15,14 +15,14 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int num1, num2;
 	char *op;
-        
+
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
 
-       	num1 = atoi(argv[1]);
+	num1 = atoi(argv[1]);
 	op = argv[2];
 	num2 = atoi(argv[3]);
 
